@@ -15,3 +15,9 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+my_list = ["milk", "eggs", "bacon", "cookies"]
+your_list = ["beer", "cookies", "apples"]
+our_list = my_list + your_list
+our_sorted_list = our_list.sort #sort sorts alphabetically
+our_unique_sorted_list = our_sorted_list.uniq  #uniq eliminates duplicates
+puts our_unique_sorted_list
